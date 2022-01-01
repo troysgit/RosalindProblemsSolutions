@@ -1,0 +1,14 @@
+Where 'example_string' is the the unique string produced when downloading from https://rosalind.info/problems/dna/
+
+# Using R; may come back and compare speed of using different options in stringi vs stringr
+library(stringr)
+library(microbenchmark)
+
+stringr::str_count(example_string, c("A", "C", "G", "T"))
+microbenchmark(stringr::str_count(example_string, c("A", "C", "G", "T")))
+
+
+# One of many ways using Python
+from collections import Counter 
+totals = print(Counter(example_string))
+
