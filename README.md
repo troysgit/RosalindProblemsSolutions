@@ -1,2 +1,6 @@
 # RosalindProblemsSolutions
-My attempts at going through the Rosalind Problems (https://rosalind.info/problems/tree-view/)  in R and/or Python.
+(https://rosalind.info/problems/tree-view/)
+My attempts at going through the Rosalind Problems in R and/or Python.
+
+DNA: A Rapid Introduction to Molecular Biology
+RNA: The Second Nucleic Acid
